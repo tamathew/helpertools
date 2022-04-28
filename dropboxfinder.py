@@ -41,9 +41,7 @@ async def my_event_handler(event):
         await client.download_media(event.media,"images/"+filename)
         if event.photo:
             msg='<image or screenshot>'
-        whatsapp_send("Appointment may be available : "+msg,'+19727413431')
-        # whatsapp_send("Appointment may be available : "+msg,'+14253624845')#Arun
-        #send_email()
+        whatsapp_send("Appointment may be available : "+msg,'+18227913434')
     datesuffix=datetime.datetime.now().strftime("%Y-%m-%d")
     current_time=datetime.datetime.now().isoformat()
     print(current_time+'|'+msg)
